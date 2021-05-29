@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "description": "My portfolio website built with Svelte: https://jana19.dev",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "repository": "https://github.com/jana19-dev/portfolio.git",
+  "author": "jana19-dev",
+  "license": "ISC",
+  "homepage": "http://jana19.dev",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "svelte": "3.38.2"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "2.1.0",
+    "@snowpack/plugin-postcss": "1.4.0",
+    "@snowpack/plugin-svelte": "3.6.0",
+    "autoprefixer": "10.2.6",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-svelte3": "3.2.0",
+    "postcss": "8.3.0",
+    "snowpack": "3.5.2",
+    "tailwindcss": "2.1.2"
+  }
+}
