@@ -1,8 +1,6 @@
-import './TailwindStyles.svelte'
-
 import App from './App.svelte'
 
-export default new App({
+const app = new App({
   target: document.body
 })
 
@@ -10,4 +8,9 @@ export default new App({
 // Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
 if (import.meta.hot) {
   import.meta.hot.accept()
+  import.meta.hot.dispose(() => {
+    app.$destroy()
+  })
 }
+
+export default app

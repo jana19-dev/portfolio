@@ -5,8 +5,7 @@ export default {
     src: { url: '/dist' }
   },
   plugins: [
-    '@snowpack/plugin-svelte',
-    '@snowpack/plugin-dotenv'
+    '@snowpack/plugin-svelte'
   ],
   routes: [
     /* Example: Enable an SPA Fallback in development: */
