@@ -14,7 +14,8 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "svelte": "3.38.2"
+    "svelte": "3.38.2",
+    "svelte-parallax": "0.2.7"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "2.1.0",

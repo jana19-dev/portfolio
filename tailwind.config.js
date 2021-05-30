@@ -20,10 +20,28 @@ module.exports = {
           to: {
             transform: 'scale(1.16)'
           }
+        },
+        upDown: {
+          from: {
+            transform: 'translateY(0)'
+          },
+          to: {
+            transform: 'translateY(200px)'
+          }
+        },
+        upDownWide: {
+          from: {
+            transform: 'translateY(0)'
+          },
+          to: {
+            transform: 'translateY(600px)'
+          }
         }
       },
       animation: {
-        logo: 'logo infinite 1.6s ease-in-out alternate'
+        logo: 'logo 1.6s ease-in-out infinite alternate',
+        upDown: 'upDown 14s ease-in-out infinite alternate',
+        upDownWide: 'upDownWide 18s ease-in-out infinite alternate'
       }
     }
   },
