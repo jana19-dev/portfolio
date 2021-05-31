@@ -13,4 +13,4 @@
   }
 </style>
 
-<h2 class="projects text-white text-2xl md:text-6xl font-bold mb-8 tracking-wider">{title}</h2>
+<h2>{title}</h2>

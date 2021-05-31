@@ -14,9 +14,9 @@
 
 
 <Parallax sections=4 style="background-color: #141821;" {disabled} bind:this={parallax}>
-  <ParallaxLayer offset=1 rate=1 style="background-color: #513dd06e;" />
-  <ParallaxLayer offset=2 rate=1 style="background-color: #513dd06e;" />
-  <ParallaxLayer offset=3 rate=1 style="background-color: #513dd06e;" />
+  <ParallaxLayer offset=1 rate=1 style="background-color: #513dd02e;" />
+  <ParallaxLayer offset=2 rate=1 style="background-color: #513dd02e;" />
+  <ParallaxLayer offset=3 rate=1 style="background-color: #513dd02e;" />
 
   <ParallaxLayer offset=0 rate=-0.1> <Intro /> </ParallaxLayer>
   <ParallaxLayer offset=1 rate=-0.1> <Projects /> </ParallaxLayer>

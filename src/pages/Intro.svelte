@@ -1,31 +1,26 @@
-<script>
-  import { ParallaxLayer } from 'svelte-parallax'
-
-</script>
-
-<style>
+<style lang="scss">
   .content {
     padding-left: 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .content {
+    @media only screen and (max-width: 600px) {
       padding: 5%;
-      margin-top: 20%;
-      justify-content: flex-start;
+      margin-top: -40%;
+      /* justify-content: flex-start; */
     }
   }
 
   h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
   }
 
   p {
@@ -36,13 +31,7 @@
   }
 </style>
 
-<ParallaxLayer 
-  offset=0
-  rate=-0.1
-  style=""
->
-  <div class='content intro'>
-    <h1>Hi, I'm Jana Rajakumar</h1>
-    <p>Full Stack Developer</p>
-  </div>
-</ParallaxLayer>
+<div class='content intro'>
+  <h1>Hi, I'm Jana Rajakumar</h1>
+  <p>Full Stack Developer</p>
+</div>

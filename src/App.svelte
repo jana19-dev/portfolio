@@ -23,6 +23,7 @@
     scrollbar-width: thin;
     scrollbar-color: #30343b transparent;
   }
+
 </style>
 
 <Parallax />
