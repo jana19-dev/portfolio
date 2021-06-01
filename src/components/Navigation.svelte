@@ -44,8 +44,8 @@
 
   .circular-menu {
     position: fixed;
-    bottom: 1rem;
-    right: 1em;
+    top: 1rem;
+    left: 1em;
   }
 
   .floating-btn {
@@ -140,19 +140,19 @@
   }
 
   .circular-menu.active .menu-item:nth-child(1) {
-    transform: translate3d(0.8em,-7em,0);
+    transform: translate3d(7.5em, -0.5em, 0);
   }
 
   .circular-menu.active .menu-item:nth-child(2) {
-    transform: translate3d(-3.5em,-6.3em,0);
+    transform: translate3d(6.5em, 3.5em, 0);
   }
 
   .circular-menu.active .menu-item:nth-child(3) {
-    transform: translate3d(-6.5em,-3.2em,0);
+    transform: translate3d(3.5em, 6.5em, 0);
   }
 
   .circular-menu.active .menu-item:nth-child(4) {
-    transform: translate3d(-7em,1em,0);
+    transform: translate3d(-0.5em, 7.5em, 0);
   }
 </style>
 

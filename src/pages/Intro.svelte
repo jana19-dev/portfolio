@@ -7,8 +7,7 @@
     height: 100%;
     @media only screen and (max-width: 600px) {
       padding: 5%;
-      margin-top: -40%;
-      /* justify-content: flex-start; */
+      margin-top: -30%;
     }
   }
 
