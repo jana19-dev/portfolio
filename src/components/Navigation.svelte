@@ -10,7 +10,9 @@
 
   onMount(() => {
     lastY = y
-    timer = setTimeout(() => active = 'active', 200)
+    timer = setTimeout(() => {
+      active = 'active'
+    }, 200)
   })
 
   const toggleMenu = () => {
@@ -167,8 +169,8 @@
   <menu class="items-wrapper">
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(1, {selector: '.intro'})}
-      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(1, {selector: '.intro'})}
+      on:click={() => parallax.scrollTo(1, { selector: '.intro' })}
+      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(1, { selector: '.intro' })}
     >
       <svg viewBox="0 0 1024 1024" style="width: 1.9rem;">
         <path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z" />
@@ -176,8 +178,8 @@
     </button>
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(2, {selector: '.projects'})}
-      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(2, {selector: '.projects'})}
+      on:click={() => parallax.scrollTo(2, { selector: '.projects' })}
+      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(2, { selector: '.projects' })}
     >
       <svg viewBox="0 0 24 24">
         <path d='M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z' />
@@ -185,8 +187,8 @@
     </button>
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(3, {selector: '.about'})}
-      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(3, {selector: '.about'})}
+      on:click={() => parallax.scrollTo(3, { selector: '.about' })}
+      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(3, { selector: '.about' })}
     >
       <svg viewBox="0 0 24 24">
           <g>
@@ -197,8 +199,8 @@
     </button>
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(4, {selector: '.contact'})}
-      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(4, {selector: '.contact'})}
+      on:click={() => parallax.scrollTo(4, { selector: '.contact' })}
+      on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(4, { selector: '.contact' })}
     >
       <svg viewBox="0 0 192 512" style="width: 0.6rem;">
         <path d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z"/>
