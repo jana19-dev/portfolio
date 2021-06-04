@@ -5,9 +5,9 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 900px) {
       padding: 5%;
-      margin-top: -30%;
+      margin-top: -20%;
     }
   }
 
@@ -17,7 +17,7 @@
     font-weight: bold;
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 900px) {
       font-size: 3rem;
     }
   }

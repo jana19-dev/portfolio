@@ -13,16 +13,14 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "dependencies": {
-    "svelte": "3.38.2",
-    "svelte-parallax": "0.2.7"
-  },
   "devDependencies": {
     "@snowpack/plugin-svelte": "3.6.0",
     "autoprefixer": "10.2.6",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-svelte3": "3.2.0",
     "node-sass": "6.0.0",
-    "snowpack": "3.5.2"
+    "snowpack": "3.5.2",
+    "svelte": "3.38.2",
+    "svelte-parallax": "0.2.7"
   }
 }

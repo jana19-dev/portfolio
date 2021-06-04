@@ -1,5 +1,5 @@
 <script>
-  import icons from '../utils/icons'
+  import icons from '../data/icons'
 
   export let name
   export let top
@@ -9,7 +9,7 @@
   const displayIcon = icons.find(icon => icon.name === name)
 </script>
 
-<style>
+<style lang="scss">
   svg {
     position: absolute;
     width: 3rem;
@@ -20,6 +20,10 @@
     bottom: 0%;
     z-index: 1;
     opacity: 15%;
+    @media only screen and (max-width: 900px) {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   .upDown {
