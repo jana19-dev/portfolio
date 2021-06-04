@@ -52,7 +52,7 @@
 
 <Navigation {parallax} {isMobile} />
 
-<Parallax sections={isMobile ? 10 : 5} style="background-color: #141821;" {disabled} bind:this={parallax}>
+<Parallax sections={isMobile ? 8 : 5} style="background-color: #141821;" {disabled} bind:this={parallax}>
   <ParallaxLayer rate=-1>
     <Icon name="react" top=20% left=2% animate="upDownWide" />
     <Icon name="svelte" top=5% left=50% animate="upDownWide" />
@@ -93,12 +93,12 @@
     <Icon name="wordpress" top=10% left=70% animate="upDownReverse" />
   </ParallaxLayer>
 
-  <ParallaxLayer offset=1 rate=1 span={isMobile ? 12 : 3} style="background-color: #513dd02e;" />
-  <ParallaxLayer offset={isMobile ? 8 : 3} rate=1 style="background-color: #513dd02e;" />
-  <ParallaxLayer offset={isMobile ? 9 : 4} rate=1 style="background-color: #513dd02e;" />
+  <ParallaxLayer offset=1 rate=1 span={isMobile ? 8 : 3} style="background-color: #513dd02e;" />
+  <ParallaxLayer offset={isMobile ? 6 : 3} rate=1 style="background-color: #513dd02e;" />
+  <ParallaxLayer offset={isMobile ? 7 : 4} rate=1 style="background-color: #513dd02e;" />
 
-  <ParallaxLayer offset=0 rate=-0.1> <Intro /> </ParallaxLayer>
-  <ParallaxLayer offset=1 rate=-0.1 span={isMobile ? 9 : 3}> <Projects /> </ParallaxLayer>
-  <ParallaxLayer offset={isMobile ? 8 : 3} rate=-0.1> <About /> </ParallaxLayer>
-  <ParallaxLayer offset={isMobile ? 9 : 4} rate=-0.1> <Contact /> </ParallaxLayer>
+  <ParallaxLayer offset=0 rate=0.3> <Intro /> </ParallaxLayer>
+  <ParallaxLayer offset=1 rate=0.3 span={isMobile ? 5 : 2} > <Projects /> </ParallaxLayer>
+  <ParallaxLayer offset={isMobile ? 6 : 3} rate=0.3> <About /> </ParallaxLayer>
+  <ParallaxLayer offset={isMobile ? 7 : 4} rate=0.3> <Contact /> </ParallaxLayer>
 </Parallax>

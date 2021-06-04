@@ -189,7 +189,7 @@
     </button>
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(isMobile ? 9 : 5, { selector: '.about' })}
+      on:click={() => parallax.scrollTo(isMobile ? 7 : 4, { selector: '.about' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(3, { selector: '.about' })}
     >
       <svg viewBox="0 0 24 24">
@@ -201,7 +201,7 @@
     </button>
     <button
       class="menu-item"
-      on:click={() => parallax.scrollTo(isMobile ? 10 : 6, { selector: '.contact' })}
+      on:click={() => parallax.scrollTo(isMobile ? 8 : 5, { selector: '.contact' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(4, { selector: '.contact' })}
     >
       <svg viewBox="0 0 192 512" style="width: 0.6rem;">
