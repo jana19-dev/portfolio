@@ -162,7 +162,7 @@
 
 <div class="circular-menu {active}">
 
-  <button class="floating-btn" on:click={toggleMenu}>
+  <button class="floating-btn" on:click={toggleMenu} aria-label="Navigation">
     <svg class="floating-icon" fill='white' viewBox="0 0 5 5">
       <path d="M2 1 h1 v1 h1 v1 h-1 v1 h-1 v-1 h-1 v-1 h1 z" />
     </svg>
@@ -171,6 +171,7 @@
   <menu class="items-wrapper">
     <button
       class="menu-item"
+      aria-label="Intro"
       on:click={() => parallax.scrollTo(1, { selector: '.intro' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(1, { selector: '.intro' })}
     >
@@ -180,6 +181,7 @@
     </button>
     <button
       class="menu-item"
+      aria-label="Projects"
       on:click={() => parallax.scrollTo(2, { selector: '.projects' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(2, { selector: '.projects' })}
     >
@@ -189,6 +191,7 @@
     </button>
     <button
       class="menu-item"
+      aria-label="About"
       on:click={() => parallax.scrollTo(isMobile ? 7 : 4, { selector: '.about' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(3, { selector: '.about' })}
     >
@@ -201,6 +204,7 @@
     </button>
     <button
       class="menu-item"
+      aria-label="Contact"
       on:click={() => parallax.scrollTo(isMobile ? 8 : 5, { selector: '.contact' })}
       on:keyup={(e) => e.key === 'Enter' && parallax.scrollTo(4, { selector: '.contact' })}
     >
