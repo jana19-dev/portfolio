@@ -10,7 +10,7 @@
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
     align-self: flex-start;
-    padding-left: 8rem;
+    padding-left: 10rem;
     @media only screen and (max-width: 900px) {
       padding-left: 1rem;
     }

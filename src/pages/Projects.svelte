@@ -17,11 +17,12 @@
     }
   }
   .projects-grid {
+    margin-top: 1rem;
     max-width: 1200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     align-items: center;
     justify-items: center;
     @media only screen and (max-width: 900px) {

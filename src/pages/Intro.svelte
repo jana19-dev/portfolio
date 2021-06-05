@@ -25,6 +25,7 @@
   p {
     color: white;
     font-size: 1.5rem;
+    font-weight: bold;
     margin: 0px;
     letter-spacing: 0.1rem;
   }
