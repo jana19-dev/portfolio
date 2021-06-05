@@ -56,7 +56,7 @@
     width: 4em;
     height: 4em;
     border-radius: 50%;
-    background-color: hsl(251, 47%, 43%);
+    background-color: hsl(276, 69%, 23%);
     color: hsl(0, 0%, 100%);
     text-align: center;
     cursor: pointer;
@@ -101,7 +101,7 @@
     top: 0;
     right: 0;
     z-index: -2;
-    background-color: hsl(256, 55%, 38%);
+    background-color: hsl(276, 69%, 23%);
     transition: all .3s ease;
   }
 
