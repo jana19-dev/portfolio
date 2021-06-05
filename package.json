@@ -19,7 +19,8 @@
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-svelte3": "3.2.0",
     "node-sass": "6.0.0",
-    "snowpack": "3.5.2",
+    "postcss": "8.3.0",
+    "snowpack": "3.5.5",
     "svelte": "3.38.2",
     "svelte-parallax": "0.2.7"
   }
