@@ -4,7 +4,7 @@ export default [
     subTitle: '@Hobby',
     date: 'May 2021 - Present',
     poster: 'treelative.png',
-    tech: ['react', 'vis.js', 'firebase', 'netlify'],
+    tech: ['svelte', 'react', 'prisma', 'graphQL', 'apollo'],
     github: 'https://github.com/J2A-org/treelative',
     web: 'http://treelative.com',
     wip: true,
