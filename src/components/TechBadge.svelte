@@ -6,10 +6,10 @@
   div {
     display: flex;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
     background-color: purple;
-    height: 2rem;
+    font-size: 0.9rem;
   }
 </style>
 
