@@ -4,7 +4,7 @@ export default [
     subTitle: '@Hobby',
     date: 'May 2021 - Present',
     poster: 'treelative.png',
-    tech: ['svelte', 'react', 'prisma', 'graphQL', 'apollo'],
+    tech: ['svelte', 'react', 'prisma', 'graphQL', 'apollo', 'firebase'],
     github: 'https://github.com/J2A-org/treelative',
     web: 'http://treelative.com',
     wip: true,
@@ -44,7 +44,7 @@ export default [
     subTitle: '@University of Toronto',
     date: 'Jul 2019 - Present',
     poster: 'mymedia.png',
-    tech: ['react', 'dgraph', 'graphQL', 'golang', 'gitlab-ci'],
+    tech: ['react', 'dgraph', 'graphQL', 'golang', 'gitlab-ci', 'docker'],
     github: '',
     web: 'https://mymedia.library.utoronto.ca',
     description: 'MyMedia provides an archival storage and streaming solution for the University of Toronto\'s media content. We provide an interface for uploading, managing and sharing your media.'
