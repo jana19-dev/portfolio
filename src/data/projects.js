@@ -15,7 +15,7 @@ export default [
     subTitle: '@Freelance',
     date: 'Jan 2021 - Present',
     poster: 'billing.png',
-    tech: ['react', 'nodeJS', 'prisma', 'docker-swarm'],
+    tech: ['react', 'apollo', 'prisma', 'graphQL', 'twillio', 'docker-swarm'],
     web: 'https://tvupweb.com/services',
     description: 'An admin billing dashboard with features to manage multiple services, customers and users with an internal chat application and data vizualization.'
   },
