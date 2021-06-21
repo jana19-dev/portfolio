@@ -1,9 +1,13 @@
 <script>
+  import { tags } from '../data/projects'
+
   export let tech
 </script>
 
 <style lang="scss">
-  div {
+  a {
+    text-decoration: none;
+    color: white;
     display: flex;
     align-items: center;
     padding: 0.3rem 0.3rem;
@@ -13,6 +17,6 @@
   }
 </style>
 
-<div>
+<a href={tags[tech]} target="_blank" rel="noopener noreferrer">
   {tech}
-</div>
+</a>
