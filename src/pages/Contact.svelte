@@ -33,7 +33,7 @@
   }
   a {
     text-decoration: none;
-    color: rgb(223, 182, 48);
+    color: #ff00ea;
     font-weight: bold;
     font-size: 1.6rem;
   }
