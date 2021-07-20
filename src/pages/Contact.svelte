@@ -64,7 +64,7 @@
     </p>
     <div class="social">
       <a href="https://www.linkedin.com/in/jana19/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/jana19-dev" target="_blank" rel="noopener noreferrer">Github</a>
+      <a href="https://github.com/jana19-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="https://www.instagram.com/jana_._._._/" target="_blank" rel="noopener noreferrer">Instagram</a>
       <a href="https://www.facebook.com/Jana.JR.19/" target="_blank" rel="noopener noreferrer">Facebook</a>
     </div>
