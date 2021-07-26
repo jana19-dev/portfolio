@@ -40,7 +40,7 @@ export default [
     github: 'https://github.com/J2A-org/treelative',
     web: 'http://treelative.com',
     wip: true,
-    description: 'An attempt to vizualize my family members with an interactive graph network. Featuring multiple layouts to visualize, insights and statistics, authentication & privacy, stories updates, video chatting room, reminders, ...etc'
+    description: 'An attempt to vizualize my family members with an interactive graph network. Featuring multiple layouts, insights and statistics, stories updates, video chatting room, reminders, ...etc'
   },
   {
     title: 'Billing',
@@ -49,7 +49,7 @@ export default [
     poster: 'billing.jpg',
     tech: ['react', 'apollo', 'prisma', 'graphQL', 'twillio', 'docker-swarm'],
     web: 'https://tvupweb.com/services',
-    description: 'An admin billing dashboard with features to manage multiple services, customers and users with an internal chat application and data vizualization.'
+    description: 'An admin billing dashboard with features to manage multiple services, customers, on-demand PDF reports and staffs with multiple authorization levels and an internal chat application.'
   },
   {
     title: 'Donkey',
