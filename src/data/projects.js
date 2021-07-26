@@ -40,7 +40,7 @@ export default [
     github: 'https://github.com/J2A-org/treelative',
     web: 'http://treelative.com',
     wip: true,
-    description: 'An attempt to vizualize my family members with an interactive graph network. Upcoming features include authentication, chatting, reminders, ...etc'
+    description: 'An attempt to vizualize my family members with an interactive graph network. Featuring multiple layouts to visualize, insights and statistics, authentication & privacy, stories updates, video chatting room, reminders, ...etc'
   },
   {
     title: 'Billing',
