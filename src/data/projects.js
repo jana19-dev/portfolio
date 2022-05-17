@@ -36,7 +36,7 @@ export default [
     subTitle: '@Director',
     date: 'May 2022 - Present',
     poster: 'saporoso.png',
-    tech: ['svelte', 'tailwindCSS', 'sveltekit'],
+    tech: ['svelte', 'tailwindCSS', 'sveltekit', 'planetscale', 'vercel'],
     github: 'https://github.com/saporoso/saporoso',
     web: 'https://saporoso.ca',
     description: 'An Italian & South Asian Cuisine - Takeout & Catering restaurant. Primary lead developer for all web services - online ordering, inventory management, self-checkout kiosk, signage and any more to come.'
@@ -57,7 +57,7 @@ export default [
     subTitle: '@Freelance',
     date: 'Jan 2021 - Present',
     poster: 'billing.jpg',
-    tech: ['react', 'apollo', 'prisma', 'graphQL', 'twillio', 'docker-swarm'],
+    tech: ['react', 'nextJS', 'apollo', 'prisma', 'graphQL', 'twillio', 'docker-swarm'],
     web: 'https://tvupweb.com/services',
     description: 'An admin billing dashboard with features to manage multiple services, customers, on-demand PDF reports and staffs with multiple authorization levels and an internal chat application.'
   },
