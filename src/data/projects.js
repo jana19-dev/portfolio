@@ -32,6 +32,16 @@ export const tags = {
 
 export default [
   {
+    title: 'Saporoso',
+    subTitle: '@Director',
+    date: 'May 2022 - Present',
+    poster: 'saporoso.png',
+    tech: ['svelte', 'tailwindCSS', 'sveltekit'],
+    github: 'https://github.com/saporoso/saporoso',
+    web: 'https://saporoso.ca',
+    description: 'An Italian & South Asian Cuisine - Takeout & Catering restaurant. Primary lead developer for all web services - online ordering, inventory management, self-checkout kiosk, signage and any more to come.'
+  },
+  {
     title: 'Treelative',
     subTitle: '@Hobby',
     date: 'May 2021 - Present',
