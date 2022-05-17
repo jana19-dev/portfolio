@@ -1,6 +1,40 @@
 <script>
-  import PageTitle from '../components/PageTitle.svelte'
+  import PageTitle from "../components/PageTitle.svelte";
 </script>
+
+<div class="content contact">
+  <PageTitle title="Get in touch" />
+  <div class="info">
+    <h3>I am available for freelancing</h3>
+    <p>
+      Say <a href="mailTo:jana.stc@gmail.com">Hi</a> or find me on most social media
+      platforms
+    </p>
+    <div class="social">
+      <a
+        href="https://www.linkedin.com/in/jana19/"
+        target="_blank"
+        rel="noopener noreferrer">LinkedIn</a
+      >
+      <a
+        href="https://github.com/jana19-dev"
+        target="_blank"
+        rel="noopener noreferrer">GitHub</a
+      >
+      <a
+        href="https://www.instagram.com/jana19.dev/"
+        target="_blank"
+        rel="noopener noreferrer">Instagram</a
+      >
+      <a
+        href="https://www.facebook.com/Jana.JR.19/"
+        target="_blank"
+        rel="noopener noreferrer">Facebook</a
+      >
+    </div>
+  </div>
+  <p class="footer">Copyright © 2021. All rights reserved</p>
+</div>
 
 <style lang="scss">
   .content {
@@ -54,20 +88,3 @@
     font-size: 1rem;
   }
 </style>
-
-<div class='content contact'>
-  <PageTitle title='Get in touch'/>
-  <div class="info">
-    <h3>I am available for freelancing</h3>
-    <p>
-      Say <a href="mailTo:jana.stc@gmail.com">Hi</a> or find me on most social media platforms
-    </p>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/jana19/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/jana19-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://www.instagram.com/jana_._._._/" target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="https://www.facebook.com/Jana.JR.19/" target="_blank" rel="noopener noreferrer">Facebook</a>
-    </div>
-  </div>
-  <p class="footer">Copyright © 2021. All rights reserved</p>
-</div>
