@@ -1,0 +1,35 @@
+import { ProjectLayout } from '@/components/ProjectLayout'
+import Image from 'next/image'
+import coverImage from './cover.png'
+import logoImage from './logo.png'
+
+import image1 from './image-1.png'
+
+export const project = {
+  date: '2017',
+  title: 'Viscodex',
+  logo: logoImage,
+  links: [],
+  description:
+    'VisCodex is a tool for building models of the physical collation of manuscripts and then visualizing them in various ways.',
+}
+
+export const metadata = {
+  title: project.title,
+  description: project.description,
+}
+
+export default (props) => <ProjectLayout project={project} {...props} />
+
+[Website](https://viscodex.library.utoronto.ca/) |
+[GitHub](https://github.com/utlib/VisualCollation)
+
+<div>{project.description}</div>
+
+<Image src={coverImage} alt="" />
+
+Dot Porter, in collaboration with Alberto Campagnolo, created VisColl to visualize collation structures alongside digitized images of manuscript leaves. During the Digital Tools for Manuscript Studies project, the Old Books New Science Lab and Information Technology Services at University of Toronto Libraries built a web-based application in collaboration with Porter and Campagnolo based upon their model. It produces detailed and downloadable collation diagrams.
+
+<Image src={image1} alt="" />
+
+Built using ReactJS + Redux powered by a Rails API backend. We used MongoDB to store the data and shared NFS storage for the images.

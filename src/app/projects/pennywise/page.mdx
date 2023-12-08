@@ -1,0 +1,35 @@
+import { ProjectLayout } from '@/components/ProjectLayout'
+import Image from 'next/image'
+import coverImage from './cover.png'
+import logoImage from './logo.png'
+
+import image1 from './image-1.png'
+import image2 from './image-2.png'
+
+export const project = {
+  date: '2023',
+  title: 'Pennywise',
+  logo: logoImage,
+  description:
+    'Personal finance tracker and budgeting app designed to help with money management. This application helps users to efficiently track and manage expenses, create budgets, and integrate bank accounts and other assets with features like payee management, category customization, and comprehensive reports.',
+}
+
+export const metadata = {
+  title: project.title,
+  description: project.description,
+}
+
+export default (props) => <ProjectLayout project={project} {...props} />
+
+[Website](http://pennywise.jana19.dev/) |
+[GitHub](https://github.com/jana19-dev/pennywise)
+
+<div>{project.description}</div>
+
+<Image src={coverImage} alt="" />
+
+Built with SvelteKit, CockroachDB for data management, Tailwind CSS for a responsive design and hosted on Vercel.
+
+<Image src={image1} alt="" />
+
+<Image src={image2} alt="" />

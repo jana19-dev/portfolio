@@ -1,3 +1,6 @@
-# Svelte Starter
+# Hi, I'm Jana Rajakumar
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Software Architect
+
+https://jana19.dev
+

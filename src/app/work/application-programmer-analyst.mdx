@@ -1,0 +1,34 @@
+import { WorkLayout } from '@/components/WorkLayout'
+import logoUofT from '@/images/logos/uoft.png'
+
+export const work = {
+  company: 'University of Toronto',
+  title: 'Application Programmer Analyst',
+  logo: logoUofT,
+  fromDate: '2016',
+  toDate: 'Present',
+  link: {
+    href: 'https://onesearch.library.utoronto.ca/',
+    label: 'Comapany Website',
+  },
+  description: `
+    <p>
+      I am actively involved in developing and maintaining a diverse range of applications for the Library.
+    </p>
+    <br />
+    <p>
+      This includes supporting high-demand applications that cater to user needs., migrating existing systems, implementing GitLab CI processes, and using systems like Chef and Docker orchestration.
+    </p>
+    <br />
+    <p>
+      Collaborating on the enhancement and sustainability of widely used systems, showcasing my commitment to the user experience.
+    </p>
+  `,
+}
+
+export const metadata = {
+  title: work.title,
+  description: work.company,
+}
+
+export default (props) => <WorkLayout work={work} {...props} />

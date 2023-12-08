@@ -1,0 +1,30 @@
+import { WorkLayout } from '@/components/WorkLayout'
+import logoCodepiercer from '@/images/logos/codepiercer.svg'
+
+export const work = {
+  company: 'Codepiercer',
+  title: 'Freelancer',
+  logo: logoCodepiercer,
+  fromDate: '2014',
+  toDate: 'Present',
+  link: {
+    href: 'https://codepiercer.org/',
+    label: 'Comapany Website',
+  },
+  description: `
+    <p>
+      As a freelancer, I specialize in crafting dynamic web solutions, ranging from static websites to high-demand web applications with real-time features and robust admin interfaces.
+    </p>
+    <br />
+    <p>
+      I excel in content management systems, deploy projects using both cloud hosting and self-hosted servers with Docker Swarm, and have expertise in working with databases and serverless architecture to ensure optimal performance and scalability.
+    </p>
+  `,
+}
+
+export const metadata = {
+  title: work.title,
+  description: work.company,
+}
+
+export default (props) => <WorkLayout work={work} {...props} />

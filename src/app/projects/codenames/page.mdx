@@ -1,0 +1,41 @@
+import { ProjectLayout } from '@/components/ProjectLayout'
+import Image from 'next/image'
+import coverImage from './cover.png'
+import logoImage from './logo.svg'
+
+import image1 from './image-1.png'
+import image2 from './image-2.png'
+import image3 from './image-3.png'
+import image4 from './image-4.png'
+
+export const project = {
+  date: '2020',
+  title: 'Codenames',
+  logo: logoImage,
+  description:
+    'Implementation of the popular board game Codenames - finding detectives (i.e., words) from a set related to a hint given by the spymaster.',
+}
+
+export const metadata = {
+  title: project.title,
+  description: project.description,
+}
+
+export default (props) => <ProjectLayout project={project} {...props} />
+
+[Website](https://codenames.jana19.dev) |
+[GitHub](https://github.com/jana19-dev/codenames)
+
+<div>{project.description}</div>
+
+<Image src={coverImage} alt="" />
+
+Built using ReactJS with Firebase as the backend for real-time database and hosted on Netlify.
+
+<Image src={image1} alt="" />
+
+<Image src={image2} alt="" />
+
+<Image src={image3} alt="" />
+
+<Image src={image4} alt="" />

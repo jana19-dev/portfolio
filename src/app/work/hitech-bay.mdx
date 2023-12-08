@@ -1,0 +1,30 @@
+import { WorkLayout } from '@/components/WorkLayout'
+import logoHiTechBay from '@/images/logos/hitech.jpeg'
+
+export const work = {
+  company: 'HiTech Bay',
+  title: 'Online Sales Technician',
+  logo: logoHiTechBay,
+  fromDate: '2014',
+  toDate: '2015',
+  link: {
+    href: 'https://www.hitechbay.com/',
+    label: 'Comapany Website',
+  },
+  description: `
+    <p>
+      I played a pivotal role in conducting and optimizing online sales on major e-commerce platforms such as Amazon and eBay.
+    </p>
+    <br />
+    <p>
+      Beyond managing sales and shipping logistics, I excelled in debugging, upgrading, and repairing a spectrum of computer systems, spanning desktops to laptops.
+    </p>
+  `,
+}
+
+export const metadata = {
+  title: work.title,
+  description: work.company,
+}
+
+export default (props) => <WorkLayout work={work} {...props} />
